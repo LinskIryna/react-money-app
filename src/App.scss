@@ -1,0 +1,11 @@
+     .App{
+    width: 375px;
+    height: 812px;
+    border-radius: 40px;
+    background: var(--bg);
+    color: var(--white);
+    padding: 75px 40px 35px;
+    display: grid;
+    gap: 25px;
+    align-content: start;
+   }

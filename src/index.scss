@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap');
+  
+
+  :root{
+    --dark: #2f333c;
+    --bg: #282833;
+    --white: #FFFFFF;
+    --grey: #CBCCC4;
+    --gradient: linear-gradient(to bottom, #614AD3, #E42C64);
+    --grey-gradient: linear-gradient(to bottom, #5E5A5A, #BEC7D7);
+    --gradient_body: linear-gradient(to right bottom, #DCFFC0, #C0FFFB);
+
+  }
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{    
+    font-family: 'Roboto', sans-serif;   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--gradient_body);
+   }
